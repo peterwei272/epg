@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="http://iptv.im2k.com/epg"
+﻿#EXTM3U url-tvg="http://iptv.im2k.com/epg"
 #EXTINF:-1 tvg-name="天津卫视" tvg-logo="http://iptv.im2k.com/logo/TIANJIN.png" group-title="天津",天津卫视
 http://192.168.50.1:8888/rtp/225.1.1.111:5002
 #EXTINF:-1 tvg-name="天津新闻" tvg-logo="http://iptv.im2k.com/logo/TIANJIN.png" group-title="天津",天津-1新闻
@@ -67,7 +67,7 @@ http://192.168.50.1:8888/rtp/225.1.2.237:5002
 http://192.168.50.1:8888/rtp/225.1.2.52:5002
 #EXTINF:-1 tvg-name="CGTN" tvg-logo="http://iptv.im2k.com/logo/CGTN.png" group-title="中央",CGTN SD
 http://192.168.50.1:8888/rtp/225.1.1.27:5002
-#EXTINF:-1 tvg-name="CGTNDocumentary" tvg-logo="http://iptv.im2k.com/logo/CGTNDoc.png" group-title="中央",CGTN Documentary SD
+#EXTINF:-1 tvg-name="CGTNDOCUMENTARY" tvg-logo="http://iptv.im2k.com/logo/CGTNDoc.png" group-title="中央",CGTN Documentary SD
 http://192.168.50.1:8888/rtp/225.1.1.55:5002
 #EXTINF:-1 tvg-name="兵器科技" tvg-logo="http://iptv.im2k.com/logo/CCTV-BQKJ.png" group-title="中央",CCTV兵器科技
 http://192.168.50.1:8888/rtp/225.1.2.166:5002
@@ -197,15 +197,15 @@ http://192.168.50.1:8888/rtp/225.1.1.247:5002
 http://192.168.50.1:8888/rtp/225.1.1.143:5002
 #EXTINF:-1 tvg-name="乐游" tvg-logo="http://iptv.im2k.com/logo/LEYOU.png" group-title="专业频道",乐游
 http://192.168.50.1:8888/rtp/225.1.1.145:5002
-#EXTINF:-1 tvg-name="都市剧场" tvg-logo="http://iptv.im2k.com/logo/DUSHIJUCHANG.png" group-title="专业频道",都市剧场
+#EXTINF:-1 tvg-name="SITV都市剧场" tvg-logo="http://iptv.im2k.com/logo/DUSHIJUCHANG.png" group-title="专业频道",SITV都市剧场
 http://192.168.50.1:8888/rtp/225.1.1.146:5002
 #EXTINF:-1 tvg-name="法治天地" tvg-logo="http://iptv.im2k.com/logo/FAZHITIANDI.png" group-title="专业频道",法治天地
 http://192.168.50.1:8888/rtp/225.1.1.237:5002
-#EXTINF:-1 tvg-name="金色频道" tvg-logo="http://iptv.im2k.com/logo/JINSEPINDAO.png" group-title="专业频道",金色学堂
+#EXTINF:-1 tvg-name="金色频道" tvg-logo="http://iptv.im2k.com/logo/JINSEPINDAO.png" group-title="专业频道",SITV金色学堂
 http://192.168.50.1:8888/rtp/225.1.1.236:5002
 #EXTINF:-1 tvg-name="快乐垂钓" tvg-logo="http://iptv.im2k.com/logo/KUAILECHUIDIAO.png" group-title="专业频道",快乐垂钓
 http://192.168.50.1:8888/rtp/225.1.2.18:5002
-#EXTINF:-1 tvg-name="茶频道" tvg-logo="http://iptv.im2k.com/logo/CHANNELTEA.png" group-title="专业频道",茶频道
+#EXTINF:-1 tvg-name="茶" tvg-logo="http://iptv.im2k.com/logo/CHANNELTEA.png" group-title="专业频道",茶
 http://192.168.50.1:8888/rtp/225.1.2.19:5002
 #EXTINF:-1 tvg-name="梨园" tvg-logo="http://iptv.im2k.com/logo/LIYUAN.png" group-title="专业频道",梨园频道
 http://192.168.50.1:8888/rtp/225.1.2.104:5002
@@ -233,7 +233,7 @@ http://192.168.50.1:8888/rtp/225.1.1.197:5002
 http://192.168.50.1:8888/rtp/225.1.1.200:5002
 #EXTINF:-1 tvg-name="汽摩频道" tvg-logo="http://iptv.im2k.com/logo/CHONGQING.png" group-title="专业频道",汽摩 SD
 http://192.168.50.1:8888/rtp/225.1.1.205:5002
-#EXTINF:-1 tvg-name="书画频道" tvg-logo="http://iptv.im2k.com/logo/SHUHUA.png" group-title="专业频道",书画频道 SD
+#EXTINF:-1 tvg-name="书画" tvg-logo="http://iptv.im2k.com/logo/SHUHUA.png" group-title="专业频道",书画 SD
 http://192.168.50.1:8888/rtp/225.1.2.22:5002
 #EXTINF:-1 tvg-name="家庭理财" tvg-logo="http://iptv.im2k.com/logo/JIATINGLICAI.png" group-title="专业频道",家庭理财 SD
 http://192.168.50.1:8888/rtp/225.1.2.23:5002
@@ -241,7 +241,7 @@ http://192.168.50.1:8888/rtp/225.1.2.23:5002
 http://192.168.50.1:8888/rtp/225.1.2.197:5002
 #EXTINF:-1 tvg-name="财富天下" tvg-logo="http://iptv.im2k.com/logo/CAIFUTIANXIA.png" group-title="专业频道",财富天下 SD
 http://192.168.50.1:8888/rtp/225.1.2.198:5002
-#EXTINF:-1 tvg-name="车迷频道" tvg-logo="http://iptv.im2k.com/logo/CHEMIPINDAO.png" group-title="专业频道",车迷频道 SD
+#EXTINF:-1 tvg-name="车迷" tvg-logo="http://iptv.im2k.com/logo/CHEMIPINDAO.png" group-title="专业频道",车迷 SD
 http://192.168.50.1:8888/rtp/225.1.2.199:5002
 #EXTINF:-1 tvg-name="环球旅游" tvg-logo="http://iptv.im2k.com/logo/HUANQIULVYOU.png" group-title="专业频道",环球旅游 SD
 http://192.168.50.1:8888/rtp/225.1.2.200:5002

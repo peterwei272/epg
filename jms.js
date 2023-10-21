@@ -10,7 +10,7 @@ if (headers['user-agent'] == undefined) {
 } else {
     var b = 'user-agent'
 }
-if (headers[a].indexOf('Infuse') != -1) {
+if (headers[a] != undefined && headers[a].indexOf('Infuse') != -1 || headers[b] != undefined && headers[b].indexOf('Infuse') != -1) {
     var start = 10 + headers[a].indexOf('DeviceId="')
     var end = headers[a].indexOf('"', start+1)
     let deviceid = headers[a].slice(start,end)

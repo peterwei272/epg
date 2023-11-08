@@ -1,5 +1,4 @@
 let headers = $request.headers;
-var url = $request.url;
 if (headers['x-emby-authorization'] == undefined) {
     var a = 'X-Emby-Authorization'
 } else {
@@ -26,7 +25,4 @@ if (headers[a] != undefined && headers[a].indexOf('Infuse') != -1) {
 if (headers[b] != undefined && headers[b].indexOf('Infuse') != -1) {
     headers[b] = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15';
 }
-if (url.indexOf('stream.mkv') != -1) {
-    url = url.replace('stream.mkv', 'stream')
-}
-$done({headers: headers, url: url});
+$done({headers});

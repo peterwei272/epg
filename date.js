@@ -1,7 +1,7 @@
 const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
 
 let body = $response.body;
-if (body == undefined && !isJsonString(body)) {
+if (body == undefined || !isJsonString(body)) {
     $done({})
 }
 let body_obj = JSON.parse(body);

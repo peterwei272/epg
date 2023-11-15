@@ -4,10 +4,14 @@ let body = $response.body;
 if (body == undefined || !isJsonString(body)) {
     $done({})
 }
-let body_obj = JSON.parse(body);
-parseJson(body_obj)
-let new_body = JSON.stringify(body_obj)
-$done({body: new_body})
+try {
+    let body_obj = JSON.parse(body);
+    parseJson(body_obj)
+    let new_body = JSON.stringify(body_obj)
+    $done({body: new_body})
+} catch(e) {
+    $done({})
+}
 
 function parseJson(jsonObj) {
     for(var key in jsonObj) {

@@ -5,6 +5,8 @@
 jms_client = type=http-request,pattern=^https?:\/\/cf2\.jmsooo\.com,requires-body=0,debug=0,script-path=https://raw.githubusercontent.com/peterwei272/epg/main/client.js,script-update-interval=0
 terminus_client = type=http-request,pattern=^https?:\/\/pub(1|2|3)\.emby\.wtf,requires-body=0,debug=0,script-path=https://raw.githubusercontent.com/peterwei272/epg/main/client.js,script-update-interval=0
 terminus_date = type=http-response,pattern=^https?:\/\/pub(1|2|3)\.emby\.wtf,requires-body=1,debug=0,script-path=https://raw.githubusercontent.com/peterwei272/epg/main/date.js,script-update-interval=0
+jms_search = type=http-response,pattern=^https?:\/\/cf2\.jmsooo\.com,requires-body=1,debug=0,script-path=https://raw.githubusercontent.com/peterwei272/epg/main/search.js,script-update-interval=0
+terminus_search = type=http-response,pattern=^https?:\/\/pub(1|2|3)\.emby\.wtf,requires-body=1,debug=0,script-path=https://raw.githubusercontent.com/peterwei272/epg/main/search.js,script-update-interval=0
 
 [MITM]
 hostname = %APPEND% *.jmsooo.com, *.emby.wtf

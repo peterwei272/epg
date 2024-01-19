@@ -1,3 +1,4 @@
+let url = $response.url;
 if (url.indexOf('SearchTerm') == -1) {
     $done({})
 }
